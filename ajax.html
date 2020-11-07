@@ -1,0 +1,44 @@
+<!--
+Name: Adrian Atanasov
+Pawprint: asa368
+Date: 04/14/2020
+Challenge: Webservice and AJAX
+
+https://www.w3schools.com/jquery/ajax_ajax.asp - webservice.js basically all of it
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Class Info</title>
+        <meta charset="utf-8">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="ajaxcss.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+        <script src="ajax.js"></script>
+    </head>
+    <body>
+        <div id="main" class="container-fluid">
+            <div class="bot">
+                <h1>Current Assignment</h1>
+                <p id="assign"></p>
+            </div>
+            <div class="bot">
+                <h1>Class Type</h1>
+                <p id="classt"></p>
+            </div>
+            <div class="top">
+                <h1>Office Hour Info</h1>
+                <ul class="bar">
+                    <li id="mon"><a href="#" onclick="mon()">Monday</a></li>
+                    <li id="tues"><a href="#" onclick="tues()">Tuesday</a></li>
+                    <li id="wed"><a href="#" onclick="wed()">Wednesday</a></li>
+                    <li id="thurs"><a href="#" onclick="thurs()">Thursday</a></li>
+                    <li id="fri"><a href="#" onclick="fri()">Friday</a></li>
+                </ul>
+                <p id="ohours"></p>
+            </div>
+        </div>
+    </body>
+</html>

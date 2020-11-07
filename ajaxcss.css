@@ -1,0 +1,63 @@
+.bot{
+    width: 400px;
+    float: left;
+    position: relative;
+    border: 1px solid gold;
+    border-radius: 10px;
+    margin: 5px;
+}
+#main{
+    margin-top: 10px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+}
+
+body{
+    color: gold;
+    background-color: black;
+}
+
+.top{
+    margin: 5px;
+    width: 1000px;
+    height: 350px;
+    position: relative;
+    border: 1px solid gold;
+    border-radius: 10px;
+}
+
+.bar{
+    margin: 0 auto;
+    list-style-type: none;
+    position: center;
+    height: 50px;
+    width: 700px;
+    background-color: gold;
+    border-radius: 5px;
+}
+
+li{
+    color: black;
+    margin: 20px;
+    float: left;
+    font-size: 20px;
+    margin-right: 10px;
+}
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    margin: 10px;
+    text-align: center;
+    font-family: "Roboto Light";
+}
